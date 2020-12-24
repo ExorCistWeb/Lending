@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>practica 3</title>
+</head>
+<body>
+	<div class="navbar">
+		<div class="container">
+			<div class="logo">
+				<img src="img/logo.png">
+			</div>
+			<div class="nav">
+				<a href="#">Features</a>
+				<a href="#">About</a>
+				<a href="#">Pricing</a>
+				<a href="#">Reviews</a>
+				<a href="#">Contact</a>
+			</div>
+		</div>
+	</div>
+	<div class="header">
+		<div class="container">
+			<div class="h-content">
+				<img src="img/logo.png">
+				<h2 class="h-title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+				<p class="h-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+				accumsan et viverra justo commodo.</p>
+				<a href="#">Download</a>
+			</div>
+			<div class="h-form">
+				<h2>Try Your <span>FREE</span> Trial Today</h2>
+				<input type="text" placeholder="Name">
+				<input type="email" placeholder="Email">
+				<input type="password" placeholder="Password">
+				<div class="h-form-btn">
+					<a href="#">Get Started</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="brandbar">
+		<div class="container">
+			<div class="brandbar-text">
+				<h2>Social Media</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Aenean euismod bibendum laoreet.</p>
+			</div>
+			
+			<div class="brandbar-icon">
+				<img src="svg/icon_facebook.svg">
+				<img src="svg/icon_twitter.svg">
+				<img src="svg/icon_googleplus.svg">
+				<img src="svg/icon_pinterest.svg">
+				<img src="svg/icon_instagram.svg">
+				<img src="svg/icon_stumbleupon.svg">
+			</div>			
+		</div>
+	</div>
+	<div class="featur-one">
+		<div class="container">
+			<div class="featur-tab">
+			  <button autofocus="" class="tablink" onclick="openTab(event, 'Tab1')">TAB 1</button>
+			  <button class="tablink" onclick="openTab(event, 'Tab2')">TAB 2</button>
+			  <button class="tablink" onclick="openTab(event, 'Tab3')">TAB 3</button>
+			</div>
+
+			<div style="margin-left:230px">
+
+			  <div id="Tab1" class="tab-container tab" >
+			    <h2>Tabs with soft transitioning effect.</h2>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+				bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+				justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+				penatibus et magnis dis parturient montes.
+				<br>
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+				bibendum laoreet.</p>
+				<a href="#" class="tab-btn">Download</a>
+			  </div>
+
+			  <div id="Tab2" class="tab-container tab" style="display:none">
+			    <h2>Я не знаю что тут по макету)</h2>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+				bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+				justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+				penatibus et magnis dis parturient montes.
+				<br>
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+				bibendum laoreet.</p>
+				<a href="#" class="tab-btn">Download</a>
+			  </div>
+
+			  <div id="Tab3" class="tab-container tab" style="display:none">
+			    <h2>Я его с инета скачал)</h2>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+				bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+				justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+				penatibus et magnis dis parturient montes.
+				<br>
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+				bibendum laoreet.</p>
+				<a href="#" class="tab-btn">The End</a>
+			  </div>
+			  <div class="tab-img">
+			  		<img src="img/tab-img.png">
+			  </div>
+			</div>
+
+			<script>
+			function openTab(evt, tabName) {
+			  var i, x, tablinks;
+			  x = document.getElementsByClassName("tab");
+			  for (i = 0; i < x.length; i++) {
+			    x[i].style.display = "none";
+			  }
+			  tablinks = document.getElementsByClassName("tablink");
+			  for (i = 0; i < x.length; i++) {
+			    tablinks[i].className = tablinks[i].className.replace(" w3-red", ""); 
+			  }
+			  document.getElementById(tabName).style.display = "block";
+			  evt.currentTarget.className += " w3-red";
+			}
+			</script>
+
+		</div>
+	</div>
+	<div class="featur-two">
+		<div class="container">
+			<div class="featur-two-img">
+				<img src="">
+			</div>
+			<div class="featur-two-container">
+				<div class="featur-section">
+					<h2 class="featur-title">Sub list section</h2>
+					<p class="featur-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> 
+					euismod bibendum laoreet. Proin gravida dolor sit amet lacus<br> 
+					accumsan et viverra justo commodo.</p>
+				</div>
+				<div class="featur-two-content">
+					<img src="img/icon-feature-1.png">
+					<h2>Title</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Aenean euismod bibendum laoreet.</p>
+				</div>
+				<div class="featur-two-content">
+					<img src="img/icon-feature-2.png">
+					<h2>Title</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Aenean euismod bibendum laoreet. Proin gravida dolor 
+					sit amet lacus accumsan et viverra justo commodo.</p>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="featur-three">
+		<div class="container">
+			<div class="featur-three-img">
+				<img src="">
+			</div>
+			<div class="featur-three-section">
+				<h2 class="featur-title">Standard Picture Section</h2>
+				<p class="featur-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
+				<br><br>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+			</div>
+		</div>
+	</div>
+	<div class="process">
+		<div class="container">
+			<div class="section">
+				<h2 class="process-title">WHY THIS IS AWESOME</h2>
+				<p class="process-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="process-block">
+				<img src="img/icon-process1.png">
+				<h2>Thoughtful Design</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+				elit. Aenean euismod bibendum laoreet. Proin gravida 
+				dolor sit amet lacus accumsan et viverra.</p>
+			</div>
+			<div class="process-block">
+				<img src="img/icon-process2.png">
+				<h2>Well Crafted</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+				elit. Aenean euismod bibendum laoreet. Proin gravida 
+				dolor sit amet lacus accumsan et viverra.</p>
+			</div>
+			<div class="process-block">
+				<img src="img/icon-process3.png">
+				<h2>Easy to Customize</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+				elit. Aenean euismod bibendum laoreet. Proin gravida 
+				dolor sit amet lacus accumsan et viverra.</p>
+			</div>
+		</div>
+	</div>
+	<div class="procing">
+		<div class="container">
+			<div class="section">
+				<h2 class="procing-title">PRICING OPTIONS</h2>
+				<p class="process-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="procing-slot-one">
+				<div class="procing-one-title">
+					<h2>Basic</h2>
+				</div>
+				<div class="price">
+					<h2><span>$</span>0</h2>
+					<p>Free for Life</p>
+					<div class="procing-btn">
+						<a class="procing-btn-content" href="#">OUR MOST POPULAR</a>
+					</div>
+				</div>
+				<div class="properties">
+					<p>1 gb of space</p>
+					<p>10 gb of bandwidth</p>
+					<p>3 websites</p>
+					<p>Basic Customization</p>
+					<p>wordpress integration</p>
+					<p>email support</p>
+				</div>
+			</div>
+			<div class="procing-slot-one">
+				<div class="procing-one-title">
+					<h2>Professional</h2>
+				</div>
+				<div class="price">
+					<h2><span>$</span>19</h2>
+					<p>Monthly Payment</p>
+					<div class="procing-btn">
+						<a class="procing-btn-content" href="#">OUR MOST POPULAR</a>
+					</div>
+				</div>
+				<div class="properties">
+					<p>5 gb of space</p>
+					<p>50 gb of bandwidth</p>
+					<p>12 websites</p>
+					<p>Advanced Customization</p>
+					<p>wordpress integration</p>
+					<p>email support</p>
+				</div>
+			</div>
+			<div class="procing-slot-one">
+				<div class="procing-one-title">
+					<h2>Enterprise</h2>
+				</div>
+				<div class="price">
+					<h2><span>$</span>70</h2>
+					<p>Monthly Payment</p>
+					<div class="procing-btn">
+						<a class="procing-btn-content" href="#">OUR MOST POPULAR</a>
+					</div>
+				</div>
+				<div class="properties">
+					<p>Unlimited space</p>
+					<p>unlimited bandwidth</p>
+					<p>100 websites</p>
+					<p>Advanced Customization</p>
+					<p>wordpress integration</p>
+					<p>24/7 customer support</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="testimonials">
+		<div class="container">
+			<div class="section">
+				<h2 class="procing-title">WHAT OUR CUSTOMERS ARE SAYING</h2>
+				<p class="process-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="comment">
+				<div class="comment-text">
+					<p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque<br>quo suscipit.</p>	
+				</div>
+				<div class="human">
+					<img src="">
+					<div class="human-name">
+						<h2>Jeremy H.</h2>
+						<p>Manager</p>
+					</div>
+				</div>			
+			</div>
+			<div class="comment">
+				<div class="comment-text">
+					<p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque<br>quo suscipit.</p>	
+				</div>
+				<div class="human">
+					<img src="">
+					<div class="human-name">
+						<h2>John S.</h2>
+						<p>Freelancer</p>
+					</div>
+				</div>			
+			</div>
+			<div class="comment">
+				<div class="comment-text">
+					<p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque<br>quo suscipit.</p>	
+				</div>
+				<div class="human">
+					<img src="">
+					<div class="human-name">
+						<h2>Susan W.</h2>
+						<p>Photographer</p>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+	<div class="custom-section">
+		<div class="container">
+			<div class="section">
+				<h2 class="custom-title">STYLISH AXURE DESIGN</h2>
+				<p class="custom-text">Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
+			</div>
+			<div class="custom-btn">
+				<a href="#">Download</a>
+			</div>	
+		</div>
+	</div>
+	<div class="contact-us">
+		<div class="container">
+			<div class="section">
+				<h2 class="procing-title">WHAT OUR CUSTOMERS ARE SAYING</h2>
+				<p class="process-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="form-inputs">
+				<input type="text" placeholder="Name">
+				<input type="text" placeholder="Email">
+				<input type="text" placeholder="Subject">
+			</div>
+
+			<textarea  name="text" placeholder="Messege"></textarea>
+				
+			<div class="btn-messege">
+				<a href="#">SEND MESSEGE</a>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="footer-icon">
+				<img src="svg/icon_facebook.svg">
+				<img src="svg/icon_twitter.svg">
+				<img src="svg/icon_googleplus.svg">
+				<img src="svg/icon_pinterest.svg">
+				<img src="svg/icon_instagram.svg">
+				<img src="svg/icon_stumbleupon.svg">
+			</div>	
+			<p class="footer-text">© 2015 Axure Themes</p>
+		</div>
+	</div>
+</body>
+</html>
